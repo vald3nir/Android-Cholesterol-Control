@@ -1,6 +1,13 @@
 pluginManagement {
+    includeBuild("toolkit/build-logic")
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -15,6 +22,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "Exams"
 include(":app")
-include(":toolkit:auth")
-include(":toolkit:core")
-include(":toolkit:repository:firebase")
+include(":shared_domain")
+include(":features:onboarding")
+include(":features:home")
+include(":toolkit:androidX")
+include(":toolkit:helpers")
