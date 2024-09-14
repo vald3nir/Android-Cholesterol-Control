@@ -12,7 +12,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":shared_domain"))
+    implementation(project(":shared-domain"))
     implementation(project(":features:home"))
     implementation(project(":features:onboarding"))
 }

@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.toolkit.androidX.module)
+    alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
@@ -7,5 +8,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":shared_domain"))
+    implementation(project(":shared-domain"))
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
 }

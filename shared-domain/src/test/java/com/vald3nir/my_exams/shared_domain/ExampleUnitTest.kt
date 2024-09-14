@@ -1,4 +1,4 @@
-package com.vald3nir.my_exams
+package com.vald3nir.my_exams.shared_domain
 
 import org.junit.Test
 

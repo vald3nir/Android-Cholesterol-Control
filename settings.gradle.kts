@@ -22,7 +22,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Exams"
 include(":app")
-include(":shared_domain")
+include(":shared-domain")
 include(":features:onboarding")
 include(":features:home")
 include(":toolkit:androidX")

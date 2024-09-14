@@ -1,4 +1,4 @@
-package com.vald3nir.exams.onboarding
+package com.vald3nir.my_exams.shared_domain
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.vald3nir.exams.onboarding.test", appContext.packageName)
+        assertEquals("com.vald3nir.my_exams.shared_domain.test", appContext.packageName)
     }
 }
