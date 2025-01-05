@@ -110,8 +110,8 @@ dependencies {
     implementation("androidx.room:room-ktx:$roomVersion")
 
     // Hilt dependencies
-    implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-compiler:2.48")
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-compiler:2.51.1")
 
     // Tests
     testImplementation("junit:junit:4.13.2")
